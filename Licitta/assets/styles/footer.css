@@ -1,0 +1,303 @@
+#top-footer-detail {
+  display: block !important;
+  height: 8px !important;
+}
+
+footer {
+  background-color: var(--footer-color);
+  color: white;
+}
+
+footer .container #content #about div svg {
+  width: 60%;
+}
+
+footer .container #content #about div svg path {
+  fill: var(--primary-color);
+}
+
+footer .container #content #about #offers img {
+  width: 30%;
+}
+
+footer .container #content #nav {
+  width: 18%;
+}
+
+footer .container #content #nav div p a {
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+footer .container #content #nav div p a:hover {
+  color: var(--primary-color) !important;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+footer .text-warning {
+  color: var(--primary-color) !important;
+}
+
+.bg-warning {
+  background: var(--primary-color) !important;
+}
+
+footer .container #content #social-footer {
+  width: 25%;
+}
+
+footer .container #content #social-footer div .row .col svg {
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+footer .container #content #social-footer div .row .col svg path {
+  width: 100%;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+footer .container #content #social-footer div .row .col:hover svg path {
+  fill: var(--primary-color);
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+@media (max-width: 992px) {
+  footer .container #content {
+    padding: 0 5% !important;
+    margin-bottom: 0 !important;
+  }
+
+  footer .container #content #about,
+  footer .container #content #contact,
+  footer .container #content #nav,
+  footer .container #content #social-footer {
+    width: 100% !important;
+    margin: 0 !important;
+    margin-bottom: 10% !important;
+  }
+
+  footer .container #content #about #offers {
+    width: 100%;
+    -ms-flex-pack: distribute !important;
+    justify-content: space-around !important;
+  }
+
+  footer .container #content #social-footer div {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+  }
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 1%;
+  right: 1%;
+  padding: 10px;
+  padding-right: 0;
+  z-index: 10000000;
+  width: 4em;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul#footer-menu {
+  font-family: sans-serif;
+  list-style: none;
+  max-height: 12.5em;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: column wrap;
+  flex-flow: column wrap;
+}
+
+ul#footer-menu a {
+  color: #fff;
+  font-family: "Manrope";
+  padding-left: 1em;
+}
+
+ul#footer-menu .main {
+  padding-left: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.grecaptcha-badge {
+  display: none;
+}
+
+.pulse-effect {
+  display: inline-block;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+footer {
+  color: white;
+  padding: 1em;
+  background: #FFB131;
+}
+
+footer svg {
+  padding: 0.2em;
+}
+
+.modal-contato .wpcf7-list-item {
+  margin: 0;
+  margin-right: 1em;
+}
+
+.modal-contato .wpcf7-list-item label {
+  font-size: 0.8em;
+}
+
+.modal-contato .wpcf7 form .modal-contato .wpcf7-response-output {
+  display: none;
+}
+
+.modal-contato .wpcf7-form p {
+  font-weight: 500;
+  font-family: 'Manrope';
+  color: black;
+  margin: 0;
+}
+
+.wpcf7-spinner {
+  display: none;
+}
+
+.modal-contato .wpcf7-form input {
+  margin-bottom: 1em;
+}
+
+#copyright {
+  color: white;
+}
+
+
+.atendimentoTitle {
+  color: white;
+}
+
+.footerTiTleItem {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  line-height: normal;
+  font-weight: bold;
+}
+
+.footerItemLink {
+  color: white;
+  font-size: 1.2rem;
+  line-height: normal;
+}
+
+.atendimentoButton {
+  font-family: 'Manrope';
+  background: transparent;
+  color: white;
+  padding: 0.25rem 0.625rem;
+  border-radius: 0.625rem;
+  border: 1px solid white;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.atendimentoButton:hover {
+  color: var(--primary-color);
+  background: white;
+}
+
+/* Grouped @media screen queries */
+
+@media screen and (max-width: 576px) {
+  ul#footer-menu {
+    max-height: 100%;
+  }
+
+  .d-md-initial {
+    display: none;
+  }
+
+  #copyright {
+    padding: 1em;
+  }
+
+  .atendimentoButton {
+    font-size: 1rem;
+  }
+
+  .atendimentoTitle {
+    font-size: 1.5rem;
+  }
+
+  .footerImage {
+    transform: scale(1.2);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .atendimentoTitle {
+    font-size: 1rem;
+  }
+
+  .atendimentoButton {
+    font-size: 0.7rem;
+  }
+
+}
+
+@media screen and (min-width: 576px) {
+  footer {
+    padding: 5em;
+  }
+  
+
+  .atendimentoTitle {
+    font-size: 3rem;
+  }
+
+
+  #copyright {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 30%);
+  }
+
+  #jit-logo {
+    position: absolute;
+    right: 0;
+    transform: translate(-50%, 28%);
+  }
+}
