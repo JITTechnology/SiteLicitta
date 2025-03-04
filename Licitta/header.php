@@ -17,7 +17,7 @@
   <meta name="author" content="OK Intercâmbio Viagens e turismo">
   <meta name="publisher" content="OK Intercâmbio Viagens e turismo">
   <meta name="description" content="<?= (get_the_excerpt()) ? get_the_excerpt() : 'O Licitta é um sistema especializado na busca e gestão de licitações, facilitando a participação das empresas em processos licitatórios e a emissão de propostas.'; ?>" />
-
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
   <?php wp_head(); ?>
   <meta charset="utf-8">
