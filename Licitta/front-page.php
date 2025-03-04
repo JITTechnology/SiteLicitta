@@ -1,4 +1,40 @@
 <?php get_header(); ?>
+<style>
+    
+@media (min-width: 768px) {
+    .font-md-7{
+        font-size: 7em;
+    }
+    .font-md-3{
+        font-size: 3em;
+    }
+    .font-md-4{
+        font-size: 4em;
+    }
+    .font-md-5{
+        font-size: 5em;
+    }
+}
+.bold{
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+  input[type="checkbox"] {
+    /* Double-sized Checkboxes */
+    -ms-transform: scale(1); /* IE */
+    -moz-transform: scale(1); /* FF */
+    -webkit-transform: scale(1); /* Safari and Chrome */
+    -o-transform: scale(1); /* Opera */
+    transform: scale(1);
+  }
+  .font-sm-4{
+    font-size: 4em;
+  }
+  .font-sm-5{
+    font-size: 5em;
+  }
+}
+</style>
 <section style="background: black; height: 100vh;align-content: center;">
     <img src="<?= get_template_directory_uri(); ?>/assets/img/capa.png" style="position: absolute;width: 20em;top: 0;max-height: 100vh;z-index: 10040"/>    
     <div class="container p-5" style="color: white">

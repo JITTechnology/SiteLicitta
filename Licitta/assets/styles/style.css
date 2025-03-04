@@ -433,38 +433,3 @@ textarea{
 .height-auto{
     height: auto !important;
 }
-
-
-@media (min-width: 768px) {
-    .font-md-7{
-        font-size: 7em;
-    }
-    .font-md-3{
-        font-size: 3em;
-    }
-    .font-md-4{
-        font-size: 4em;
-    }
-    .font-md-5{
-        font-size: 5em;
-    }
-}
-.bold{
-    font-weight: bold;
-}
-@media (max-width: 768px) {
-  input[type="checkbox"] {
-    /* Double-sized Checkboxes */
-    -ms-transform: scale(1); /* IE */
-    -moz-transform: scale(1); /* FF */
-    -webkit-transform: scale(1); /* Safari and Chrome */
-    -o-transform: scale(1); /* Opera */
-    transform: scale(1);
-  }
-  .font-sm-4{
-    font-size: 4em;
-  }
-  .font-sm-5{
-    font-size: 5em;
-  }
-}
