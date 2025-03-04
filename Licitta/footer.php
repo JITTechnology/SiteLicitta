@@ -1,6 +1,6 @@
 <div>
-    <a href="https://api.whatsapp.com/send?phone=5585992442233" target="_blank">
-        <img class="whatsapp pulse-effect" alt="logo do whatsapp" title="Fale com a OK Intercâmbio pelo WhatsApp"
+    <a href="https://api.whatsapp.com/send?phone=5585994139360" target="_blank">
+        <img class="whatsapp pulse-effect" alt="logo do whatsapp" title="Fale com o Licitta pelo WhatsApp"
             src="<?= get_template_directory_uri(); ?>/assets/img/whatsapp.webp" />
     </a>
 </div>
@@ -18,12 +18,12 @@
         <div class="col-md-1"></div>
         <div class="col-sm-12 col-md-4 modal-contato" id="form">
             <div class="p-5 bg-gray" style="border-radius: 5%;">
-                <?= do_shortcode( '[contact-form-7 id="34d40a2" title="Formulário Footer"]');    ?>
+                <?= do_shortcode( '[contact-form-7 id="ce2d8d5" title="Formulário footer"]');    ?>
             </div>
         </div>
     </div>
 </footer>
-<div class="d-md-block d-none bg-primary" style="min-height: 3em">
+<div class="bg-primary" style="min-height: 3em">
     <div class="container text-center">
         <p id="copyright">Copyright 2025 – Licitta</p>
         <a id="jit-logo" href="https://jit.technology">

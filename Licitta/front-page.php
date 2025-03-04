@@ -1,37 +1,24 @@
 <?php get_header(); ?>
-<style>
-    
-@media (max-width: 768px) {
-  input[type="checkbox"] {
-    /* Double-sized Checkboxes */
-    -ms-transform: scale(1); /* IE */
-    -moz-transform: scale(1); /* FF */
-    -webkit-transform: scale(1); /* Safari and Chrome */
-    -o-transform: scale(1); /* Opera */
-    transform: scale(1);
-  }
-}
-</style>
 <section style="background: black; height: 100vh;align-content: center;">
     <img src="<?= get_template_directory_uri(); ?>/assets/img/capa.png" style="position: absolute;width: 20em;top: 0;max-height: 100vh;z-index: 10040"/>    
     <div class="container p-5" style="color: white">
-        <h1 class="text-center cl-white" style="font-weight: bold; font-size: 3em; height: 1em" id="text">Pesquisar</h1>
-        <h1 class="text-center" style="font-weight: bold; color: #E09F3F;font-size: 7em">Licitações</h1>
+        <h1 class="text-center bold cl-white" style="font-size: 3em; height: 1em" id="text">Pesquisar</h1>
+        <h1 class="text-center bold cl-primary font-sm-5 font-md-7">Licitações</h1>
     </div>
 </section>
 
 <section style="background-color:white">
     <div class="container p-5">
         <div class="row">
-            <div class="col-4 px-4">
+            <div class="col-sm-12 col-md-4 p-2">
                 <h2>Não perca mais nenhuma oportunidade de licitação!</h2>
                 <p style="border-left: 1px solid black; padding-left: 1em">O Licitta centraliza todas as licitações de interesse da sua empresa, facilitando a busca, o gerenciamento e a emissão de propostas.</p>
             </div>
-            <div class="col-4 px-4">
+            <div class="col-sm-12 col-md-4 p-4">
                 <h2>A solução completa para gerenciar licitações!</h2>
                 <p style="border-left: 1px solid black; padding-left: 1em">Organize e acompanhe licitações de forma eficiente, garantindo mais controle sobre suas propostas e resultados.</p>
             </div>
-            <div class="col-4 px-4">
+            <div class="col-sm-12 col-md-4 p-4">
                 <h2>Acelere sua participação em licitações!</h2>
                 <p style="border-left: 1px solid black; padding-left: 1em">Filtre, acompanhe e gerencie licitações sem complicação. Tenha mais controle e aumente suas chances de vitória.</p>
             </div>
@@ -41,17 +28,17 @@
 <section class="p-5 bg-primary" id="about">
     <div class="">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-7">
                 <img src="<?= get_template_directory_uri(); ?>/assets/img/mockups/pesquisar.png" style="width: 100%" />
             </div>
-            <div class="col-md-6 p-5" style="align-content: center;    justify-items: center;">
-                <h2 class="cl-white" style="font-size: 4em;">O caminho para o seu </h2>
-                <h2 class="cl-white" style="font-size: 4em;"><strong class="cl-white" style="font-size: 1.5em">SUCESSO</strong></h2>
+            <div class="col-md-5 p-5" style="align-content: center; justify-items: center;">
+                <h2 class="cl-white font-md-3">O caminho para o seu </h2>
+                <h2 class="cl-white font-md-3"><strong class="cl-white" style="font-size: 1.5em">SUCESSO</strong></h2>
             </div>
         </div>
     </div>
 </section>
-<section>
+<section class="d-none">
     <div class="container p-5" style="    place-items: center;">
         <h2>Como Funciona?</h2>
         <p>Participar de licitações nunca foi tão fácil!</p>
@@ -59,15 +46,15 @@
     </div>
 </section>
 <section class="row" style="background-color: black;--bs-gutter-x: 0">
-    <div class="col-6">
+    <div class="col-sm-12 col-md-6">
         <div class="container p-5">
-            <h2 class="cl-primary" style="font-size: 5em;"> Por que usar<BR> o Licitta?</h2>
-            <div style="padding-right: 10em">
+            <h2 class="cl-primary" style="font-size: 4em;"> Por que usar<BR> o Licitta?</h2>
+            <div>
                 <p class="cl-white" style="font-size: 1.4em;">Com o Licitta, sua empresa ganha mais agilidade e eficiência na busca, gestão e envio de propostas, aumentando suas chances de sucesso.</p>
             </div>
         </div>
     </div>
-    <div class="col-6 bg-primary" style="align-content: center;">
+    <div class="col-sm-12 col-md-6 bg-primary" style="align-content: center;">
         <div class="container p-5">
             <div class="row">
                 <div class="col-6 px-4 mt-4">

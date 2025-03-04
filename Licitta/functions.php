@@ -34,22 +34,6 @@
 
         wp_enqueue_style('header', get_template_directory_uri() . '/assets/styles/header.css');	
         wp_enqueue_style('footer', get_template_directory_uri().'/assets/styles/footer.css');
-        if ( is_front_page() ) {
-            wp_enqueue_style('home', get_template_directory_uri() . '/assets/styles/home.css');
-            wp_enqueue_style('perguntas-frequentes', get_template_directory_uri() . '/assets/styles/perguntas-frequentes.css');
-        }
-        if(is_page('blog') || is_single() || is_category() || is_tag() || is_page('mais-lidas') || is_page('ultimas')){
-            wp_enqueue_style('home', get_template_directory_uri() . '/assets/styles/blog-front.css');   
-        }
-        if(is_page('intercambio-na-irlanda') || is_page('intercambio-na-australia') || is_page('intercambio-no-canada')){
-            wp_enqueue_style('landingpage', get_template_directory_uri() . '/assets/styles/landingpage.css');
-            if ( wp_is_mobile() ) {
-                wp_enqueue_style('landingpage-mobile', get_template_directory_uri() . '/assets/styles/landingpage-mobile.css');
-            }else{
-                wp_enqueue_style('landingpage-desktop', get_template_directory_uri() . '/assets/styles/landingpage-desktop.css');
-            }
-        }
-        wp_enqueue_style('depoimentos', get_template_directory_uri() . '/assets/styles/components/depoimentos.css');
 
         //estilos dos componentes
     }
