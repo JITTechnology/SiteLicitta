@@ -50,7 +50,7 @@
   <!-- End Google Tag Manager (noscript) -->
   <!-- Modal -->
   <header id="header" class="d-flex flex-column fixed-top bg-black">
-    <div class="d-none d-lg-none bg-primary align-items-center p-2" style="height: 3em;">
+    <div class="d-none d-lg-none bg-primary align-items-center" style="height: 3em;">
       <div class="container">
         <div class="row justify-content-end">
           <div class="col-sm-3"></div>
@@ -86,7 +86,7 @@
     </div>
     <nav class="container d-flex justify-content-between navbar navbar-expand-lg navbar-dark p-0">
       <div class="container-fluid p-0">
-        <a id="logo" class="ps-3 pt-2 d-flex align-items-center navbar-brand m-0 w-25" href="<?=home_url()?>">
+        <a id="logo" class="ps-3 py-3 d-flex align-items-center navbar-brand m-0 w-25" href="<?=home_url()?>">
           <img src="<?= get_template_directory_uri(); ?>/assets/img/svgs/logo.svg" alt="Icon ok" style="width: 10em;" title="Icone OK intercâmbio" />
         </a>
         <a class="cl-white px-3 d-sm-flex d-md-none" href="https://app.licitta.com.br" target="_blank">
