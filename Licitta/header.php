@@ -50,7 +50,7 @@
   <!-- End Google Tag Manager (noscript) -->
   <!-- Modal -->
   <header id="header" class="d-flex flex-column fixed-top bg-black">
-    <div class="d-none d-lg-none bg-primary align-items-center" style="height: 3em;">
+    <div class="d-none d-lg-none bg-primary align-items-center p-2" style="height: 3em;">
       <div class="container">
         <div class="row justify-content-end">
           <div class="col-sm-3"></div>
