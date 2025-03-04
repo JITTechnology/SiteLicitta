@@ -434,6 +434,7 @@ textarea{
     height: auto !important;
 }
 
+
 @media (min-width: 768px) {
     .font-md-7{
         font-size: 7em;
